@@ -1,3 +1,17 @@
+:root{
+  --background-color: #1E252B;
+  --accent-color: #FF6E30;
+  --white-color: #FFFFFF;
+  --text-color: rgba(255, 255, 255, 0.55);
+  --form-color: #837A93;
+}
+body{
+  color: var(--text-color);
+  background-color: var(--background-color);
+  font-weight: 500;
+font-size: 18px;
+font-family: "Poppins", sans-serif;
+}
 /* .roboto-regular {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
