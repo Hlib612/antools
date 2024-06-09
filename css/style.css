@@ -12,6 +12,12 @@ body {
   font-size: 18px;
   font-family: "Poppins", sans-serif;
 }
+.container {
+  width: 1254px;
+  padding: 0 15px;
+  outline: 2px dashed red;
+  margin: 0 auto;
+  }
 .header-logo {
   font-weight: 600;
   font-size: 22px;
@@ -66,6 +72,7 @@ body {
 }
 .popular_tools-list-item-description {
   font-weight: 400;
+  margin-bottom: 30px;
 }
 .popular_tools-list-item-button {
   font-weight: 600;
@@ -116,6 +123,47 @@ body {
   font-size: 16px;
   border: none;
 }
+.popular_tools-list-item-image-heart{
+background-color: var(--background-color);
+border: none;
+}
+.popular_tools-list-item-image-heart::before {
+  display: inline-block;
+  content: "";
+  background-image: url(../images/heart_gray.svg);
+  background-repeat: no-repeat;
+  width: 42px;
+  height: 42px;
+  background-color: var(--background-color);
+}
+.popular_tools-list-item-image-heart:hover::before {
+  display: inline-block;
+  content: "";
+  background-image: url(../images/heart_red.svg);
+  background-repeat: no-repeat;
+  width: 48px;
+  height: 42px;
+  background-color: var(--background-color);
+}
+.popular_tools-list-item:hover .popular_tools-list-item-button{
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  border-radius: 8px;
+}
+.popular_tools-list-item:hover .popular_tools-list-item-title{
+  color: var(--white-color);
+}
+.popular_tools-list-item:hover .popular_tools-list-item-under_title{
+  color: #FFA537;
+}
+.popular_tools-list-item:hover .popular_tools-list-item-description{
+  color: rgba(255, 255, 255, 0.78);;
+}
+.section_with_gigant_list-button:hover{
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  border: 1px solid black;
+}
 /*
     font-family: "Roboto", sans-serif;
     font-family: "Lora", serif;
@@ -134,13 +182,14 @@ body {
   font-weight: 400;
   font-size: 14px;
 }
-.footer-list-item-title{
+.footer-list-item-title {
   font-size: 20px;
-  color: rgba(255, 255, 255, 0.9);;
+  color: rgba(255, 255, 255, 0.9);
 }
-.footer-list-item-list-item{
+.footer-list-item-list-item {
   font-size: 16px;
 }
+
 /* .hero-form {
   background-color: var(--form-color);
   border-radius: 15px;
