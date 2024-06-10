@@ -56,6 +56,7 @@ body {
 .hero-form-button {
   color: var(--white-color);
   background-color: var(--accent-color);
+  border-radius: 8px;
 }
 .section_with_gigant_list-title {
   font-weight: 500;
@@ -164,6 +165,22 @@ border: none;
   background-color: var(--accent-color);
   border: 1px solid black;
 }
+.section_with_form-title{
+  color: var(--white-color);
+  font-size: 48px;
+}
+.section_with_form-form {
+  background-color: var(--form-color);
+  border-radius: 15px;
+}
+.section_with_form-input {
+  background-color: transparent;
+}
+.section_with_form-button {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  border-radius: 8px;
+}
 /*
     font-family: "Roboto", sans-serif;
     font-family: "Lora", serif;
@@ -201,3 +218,12 @@ border: none;
   color: var(--white-color);
   background-color: var(--accent-color);
 } */
+.section_newcomer_tools-list-item:hover .section_newcomer_tools-list-item-title{
+color: var(--white-color);
+}
+.section_newcomer_tools-list-item:hover .section_newcomer_tools-list-item-undertitle{
+  color: #FFA537;
+  }
+  .section_newcomer_tools-list-item:hover .section_newcomer_tools-list-item-description{
+    color: var(--white-color);
+    }
