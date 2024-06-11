@@ -52,7 +52,7 @@ body {
   border-radius: 8px;
   padding: 12px 28px;
 }
-.hero{
+.hero {
   margin-bottom: 186px;
 }
 .hero-title {
@@ -76,7 +76,7 @@ body {
   align-items: center;
   margin-bottom: 107px;
 }
-.hero-form-img{
+.hero-form-img {
   margin-left: 18px;
 }
 .hero-input {
@@ -94,13 +94,36 @@ body {
   margin-left: 111px;
   margin-right: 11px;
 }
-.social_media_list{
+.social_media_list {
   gap: 8px;
 }
 .section_with_gigant_list-title {
   font-weight: 500;
   font-size: 48px;
   color: var(--white-color);
+  text-align: center;
+  margin-bottom: 24px;
+}
+.section_with_gigant_list-description {
+  text-align: center;
+  margin-bottom: 92px;
+}
+.popular_tools-list-item {
+  flex-basis: calc((100% - 48px) / 3);
+  padding: 32px;
+}
+.popular_tools-list-item:hover {
+  border-radius: 15px;
+  background-image: linear-gradient(
+      to right,
+      rgba(40, 48, 54, 0.6),
+      rgba(40, 48, 54, 0.6)
+    ),
+    radial-gradient(
+      circle at top right,
+      rgba(255, 110, 48, 0.6) 1%,
+      transparent 20%
+    );
 }
 .popular_tools-list-item-title {
   font-size: 24px;
@@ -120,6 +143,9 @@ body {
   background-color: var(--background-color);
   border: none;
   color: var(--text-color);
+  border-radius: 8px;
+  width: 106px;
+  height: 42px;
 }
 .section_with_gigant_list-button {
   color: var(--accent-color);
@@ -162,6 +188,14 @@ body {
   font-weight: 600;
   font-size: 16px;
   border: none;
+}
+.popular_tools-list {
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.popular_tools-list-item-image {
+  margin-left: 33px;
+  margin-right: 4px;
 }
 .popular_tools-list-item-image-heart {
   background-color: var(--background-color);
@@ -219,6 +253,22 @@ body {
   color: var(--white-color);
   background-color: var(--accent-color);
   border-radius: 8px;
+}
+.man_flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section_with_men-wraper {
+  display: flex;
+}
+.section_with_men-description {
+  width: 393px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 214%;
+  letter-spacing: 0.01em;
+  font-family: "Roboto", sans-serif;
 }
 /*
     font-family: "Roboto", sans-serif;
