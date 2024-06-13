@@ -59,6 +59,7 @@ body {
   color: var(--white-color);
   font-weight: 500;
   font-size: 50px;
+  margin-bottom: 30px;
 }
 .span {
   color: var(--accent-color);
@@ -66,6 +67,7 @@ body {
 .hero-description {
   font-weight: 400;
   font-size: 18px;
+  margin-bottom: 60px;
 }
 .hero-form {
   background-color: var(--form-color);
@@ -94,6 +96,7 @@ body {
   margin-left: 111px;
   margin-right: 11px;
 }
+
 .social_media_list {
   gap: 8px;
 }
