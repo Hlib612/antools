@@ -473,13 +473,12 @@
       <section class="section_with_form">
         <h2 class="section_with_form-title">Become a contributor?</h2>
         <p class="section_with_form-description">
-          Join us and get tips & tricks to become a great Designer and Developer
+          Join us and get tips & tricks to become a great<br> Designer and Developer
         </p>
-        <form name="signup_form" class="section_with_form-form">
+        <form name="signup_form" class="section_with_form-form flex">
           <label>
             <input
-              type="email"
-              name="uer_email"
+            placeholder="Enter your email..."
               class="section_with_form-input"
             />
           </label>
@@ -487,16 +486,23 @@
         </form>
       </section>
     </main>
-    <footer>
+    <footer class="footer flex">
+      <div class="footer-div">
       <a class="footer-logo" href="./index.html"
-        ><img src="./images/footer_logo.svg" alt="antools" />antools</a
+        ><img src="./images/footer_logo.svg" alt="antools" class="footer-logo-img"/>antools</a
       >
       <h5 class="footer-title">Copyright 2021. Antools</h5>
       <p class="footer-description">
-        Antool is a web collection of information on paid or free Design and
-        Development tools
+        Antool is a web collection of
       </p>
-      <ul class="footer-list">
+      <p class="footer-description">
+       information on paid or free Design
+      </p>
+      <p class="footer-description">
+      and Development tools
+      </p>
+    </div>
+      <ul class="footer-list flex">
         <li class="footer-list-item">
           <h4 class="footer-list-item-title">Contact Us</h4>
           <ul class="footer-list-item-list">
