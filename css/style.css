@@ -100,6 +100,9 @@ body {
 .social_media_list {
   gap: 8px;
 }
+.section_with_gigant_list{
+  margin-bottom: 200px;
+}
 .section_with_gigant_list-title {
   font-weight: 500;
   font-size: 48px;
@@ -111,9 +114,14 @@ body {
   text-align: center;
   margin-bottom: 92px;
 }
+.popular_tools-list{
+  margin-bottom: 100px;
+}
 .popular_tools-list-item {
   flex-basis: calc((100% - 48px) / 3);
   padding: 32px;
+  width: 392px;
+height: 294px;
 }
 .popular_tools-list-item:hover {
   border-radius: 15px;
@@ -127,6 +135,8 @@ body {
       rgba(255, 110, 48, 0.6) 1%,
       transparent 20%
     );
+    width: 392px;
+    height: 294px;
 }
 .popular_tools-list-item-title {
   font-size: 24px;
@@ -135,10 +145,14 @@ body {
 .popular_tools-list-item-under_title {
   font-weight: 400;
   color: rgba(255, 165, 55, 0.55);
+  margin-bottom: 30px;
 }
 .popular_tools-list-item-description {
   font-weight: 400;
   margin-bottom: 30px;
+}
+.popular_tools-list-item-image-folder{
+  margin-right: 124px;
 }
 .popular_tools-list-item-button {
   font-weight: 600;
@@ -159,10 +173,17 @@ body {
   height: 64px;
   margin-left: auto;
   margin-right: auto;
+  justify-content: center;
 }
 .section_idk-title {
   font-size: 24px;
   color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding-top: 62px;
+  padding-bottom: 55px;
+}
+.section_newcomer_tools{
+
 }
 .section_newcomer_tools-title {
   font-size: 48px;
@@ -196,9 +217,13 @@ body {
   gap: 24px;
   flex-wrap: wrap;
 }
+.popular_tools-list-item-image-folder{
+  margin-left: 12px;
+}
 .popular_tools-list-item-image {
-  margin-left: 33px;
-  margin-right: 4px;
+  margin-left: 34px;
+  margin-right: 30px;
+  margin-bottom: 34px;
 }
 .popular_tools-list-item-image-heart {
   background-color: var(--background-color);
@@ -272,6 +297,27 @@ body {
   line-height: 214%;
   letter-spacing: 0.01em;
   font-family: "Roboto", sans-serif;
+}
+.section_idk{
+  background-image: linear-gradient(
+      to right,
+      rgba(40, 48, 54, 0.6),
+      rgba(40, 48, 54, 0.6)
+    ),
+    radial-gradient(
+      circle at top left,
+      rgba(255, 110, 48, 0.6) 1%,
+      transparent 20%
+    );
+    border-radius: 25px;
+    width: 1224px;
+    height: 253px;
+    margin-bottom: 200px;
+}
+.logos-list{
+gap: 108px;
+padding-left: 82px;
+padding-right: 82px;
 }
 /*
     font-family: "Roboto", sans-serif;
