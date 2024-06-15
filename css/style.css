@@ -30,8 +30,10 @@ body {
   font-size: 22px;
   color: var(--white-color);
 }
+.navigation{
+  margin-left: auto;
+}
 .navigation-list {
-  margin-left: 257px;
   margin-right: 193px;
   gap: 40px;
 }
@@ -45,6 +47,10 @@ body {
 .navigation-button-list-item {
   font-weight: 600;
   font-size: 16px;
+}
+.navigation-button-list-item-a{
+  border-radius: 8px;
+  padding: 12px 28px;
 }
 .navigation-button-list-item-a:hover {
   color: var(--white-color);
@@ -99,6 +105,14 @@ body {
 
 .social_media_list {
   gap: 8px;
+}
+.background-illustration::before,
+.background-illustration::after{
+  content: "";
+  background-image: url(../images/illustration.svg);
+  width: 528px;
+  height: 628px;
+  background-size: cover;
 }
 .section_with_gigant_list{
   margin-bottom: 200px;
@@ -181,9 +195,6 @@ height: 294px;
   text-align: center;
   padding-top: 62px;
   padding-bottom: 55px;
-}
-.section_newcomer_tools{
-
 }
 .section_newcomer_tools-title {
   font-size: 48px;
@@ -336,6 +347,8 @@ border-radius: 8px;
     width: 1224px;
     height: 253px;
     margin-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .logos-list{
 gap: 108px;
@@ -373,11 +386,13 @@ padding-right: 82px;
    .footer{
     border-top: 0.50px solid rgba(255, 255, 255, 0.15);
    }
+   .footer-section{}
 .footer-logo{
+  display: block;
   font-weight: 600;
   font-size: 22px;
   color: rgba(255, 255, 255, 0.9);
-  margin-bottom: 27px;
+  margin-bottom: 26px;
 }
 .footer-title {
   font-size: 16px;
@@ -404,7 +419,6 @@ padding-right: 82px;
 }
 .footer-logo-img{
   margin-right: 12px;
-  margin-bottom: 25px;
 }
 .footer-title{
   margin-bottom: 22px;
