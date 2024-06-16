@@ -331,6 +331,12 @@ border-radius: 8px;
   background-color: var(--background-color);
   border: none;
 }
+.section_with_men-img{
+  margin-right: 57px;
+  margin-left: 107px;
+  width: 399px;
+height: 492px;
+}
 .section_with_men-wraper {
   display: flex;
 }
@@ -341,6 +347,8 @@ border-radius: 8px;
   line-height: 214%;
   letter-spacing: 0.01em;
   font-family: "Roboto", sans-serif;
+  padding-top: 140px;
+  padding-bottom: 302px;
 }
 .gradient{
   background-image: linear-gradient(
