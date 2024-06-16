@@ -23,15 +23,19 @@ body {
 }
 .header {
   padding-top: 26px;
-  margin-bottom: 107px;
+  padding-bottom: 58px;
 }
 .header-logo {
   font-weight: 600;
   font-size: 22px;
   color: var(--white-color);
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 .navigation{
   margin-left: auto;
+  align-items: center;
 }
 .navigation-list {
   margin-right: 193px;
@@ -60,6 +64,7 @@ body {
 }
 .hero {
   margin-bottom: 186px;
+  padding-top: 48px;
 }
 .hero-title {
   color: var(--white-color);
