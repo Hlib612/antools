@@ -325,6 +325,11 @@ border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 100px;
+}
+.section_with_men-button{
+  background-color: var(--background-color);
+  border: none;
 }
 .section_with_men-wraper {
   display: flex;
@@ -337,31 +342,28 @@ border-radius: 8px;
   letter-spacing: 0.01em;
   font-family: "Roboto", sans-serif;
 }
-.section_idk{
+.gradient{
   background-image: linear-gradient(
-      to right,
-      rgba(40, 48, 54, 0.6),
-      rgba(40, 48, 54, 0.6)
-    ),
-    radial-gradient(
-      circle at top left,
-      rgba(255, 110, 48, 0.6) 1%,
-      transparent 20%
-    );
-    border-radius: 25px;
-    width: 1224px;
-    height: 253px;
-    margin-bottom: 200px;
-    margin-left: auto;
-    margin-right: auto;
+    to right,
+    rgba(40, 48, 54, 0.6),
+    rgba(40, 48, 54, 0.6)
+  ),
+  radial-gradient(
+    circle at top left,
+    rgba(255, 110, 48, 0.6) 1%,
+    transparent 20%
+  );
+  border-radius: 25px;
+  width: 1224px;
+  height: 253px;
+}
+.section_idk{
+  margin-bottom: 200px;
 }
 .logos-list{
 gap: 108px;
 padding-left: 82px;
 padding-right: 82px;
-}
-.section_with_men{
-  margin-bottom: 219px;
 }
 .section_with_form-title{
   text-align: center;
@@ -370,6 +372,13 @@ padding-right: 82px;
 .section_with_form-description{
   text-align: center;
   margin-bottom: 100px;
+}
+.section_with_men{
+  margin-bottom: 219px;
+}
+.section_with_men-button-list{
+  gap: 18px;
+  justify-content: center;
 }
 .section_with_men-button-list-item-gray{
   border-radius: 4px;
