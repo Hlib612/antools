@@ -527,3 +527,9 @@ padding-right: 82px;
   .section_newcomer_tools-list-item-description {
   color: var(--white-color);
 }
+.heart_svg{
+  fill: gray;
+}
+.heart_svg:hover{
+  fill: red;
+}
