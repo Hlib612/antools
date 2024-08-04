@@ -5,6 +5,9 @@
   --text-color: rgba(255, 255, 255, 0.55);
   --form-color: #283036;
 }
+html{
+  scroll-behavior: smooth;
+}
 body {
   color: var(--text-color);
   background-color: var(--background-color);
@@ -46,6 +49,8 @@ body {
 .navigation-list-item {
   font-weight: 500;
   font-size: 16px;
+  color: white;
+  transition: color 500ms;
 }
 .navigation-list-item:hover{
   font-weight: 500;
@@ -64,6 +69,8 @@ body {
   padding: 12px 28px;
   font-weight: 600;
 font-size: 16px;
+transition-property: background-color;
+transition-duration: 500ms;
 }
 .navigation-button-list-item-a:hover {
   color: var(--white-color);
@@ -72,6 +79,7 @@ font-size: 16px;
   padding: 12px 28px;
   font-weight: 600;
 font-size: 16px;
+transition: background-color 500ms;
 }
 
 .hero {
@@ -532,4 +540,27 @@ padding-right: 82px;
 }
 .heart_svg:hover{
   fill: red;
+}
+.scroll-to-top{
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border: aquamarine;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.scroll-to-top .icon-arrow-up{
+width: 26px;
+height: 28px;
+fill: #fff200;
+transition: fill 500ms;
+}
+.scroll-to-top:hover .icon-arrow-up{
+fill: blueviolet;
+transition: fill 500ms;
 }
